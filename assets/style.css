@@ -9,10 +9,6 @@
     --matrix1: rgb(27, 240, 27);
 }
 
-body {
-    background: black;
-    color: white;
-}
 
 .background{
     /*this is the background image for the header and footer*/
@@ -28,7 +24,10 @@ body {
     justify-content: space-between;
 }
 
-.resize {
+.body {
+    background-color: black;
+    color: white;
+
 
 }
 
@@ -49,7 +48,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     opacity: 85%;
-    ;
 }
 
 .header ul {
@@ -120,7 +118,7 @@ body {
     border-color: black;
 }
 
-.hero h3 {
+.hero h2 {
     border: 3px inset black;
     border-radius: 6px;
 }
@@ -130,7 +128,7 @@ body {
     padding:80px 20px 80px 20px;
 }
 
-.content h4 {
+.content h3 {
     display: flex;
     font-size: 40px;
     min-width: 15%;
@@ -187,6 +185,7 @@ body {
     padding: 30px;
     text-align: center;
     font-size: 20px;
+    
 }
 
 .bottom span {
@@ -225,3 +224,27 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width: 320px) {
+.content{
+    display: block;
+    font-size: 15px;
+    
+}
+.content h3 {
+    border-bottom: 10px solid var(--matrix1);
+    border-right: none; 
+    padding: 20px;
+}
+
+.liner{
+    padding: 20px;
+    margin: 20px;
+}
+
+#banner1{
+    width: 280px;
+}
+
+
+
+}

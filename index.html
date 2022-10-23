@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="resetSheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
     <title>YBD Showcase Portfolio</title>
 </head>
-<body>
+<body class="body">
     <!--this is the header that contains the matrix gif part with links to content and my name-->
-    <header class="header background">
+<header class="header background">
         <h1>Yon Bermudez - Rookie Dev</h1>
         <nav>
             <ul>
@@ -28,20 +29,21 @@
                 </li>
             </ul>
         </nav>
-    </header>
+</header>
     
     <!-- this is the hero image, it also contains the middle title of my portfolio-->
-    <div class="hero">
-        <h3 >Showcase Portfolio</h3>
-    </div>
+<div class="hero">
+        <h2 >Showcase Portfolio</h2>
+</div>
     <!-- this is where the main content of the website starts. this includes most of the information-->
-    <main>        
-        <section class="content">
+<main>
+    <!-- this is the about me section with my bio-->      
+    <section class="content">
         <div>
-        <h4 id="About-ME">About Me:</h4>
+        <h3 id="About-ME">About Me:</h3>
         <img src="./assets/images/pfpavatar.jpg">
         </div>
-        <article>
+            <article>
             Hello! My name is <span data-descr="Hire Me!">Yonatan Bermudez.</span> 
             This website is designed to showcase my work while I learn about web design. 
             This will also display links to all my work while I progress and become more proficient 
@@ -52,44 +54,45 @@
             together and we call ourselves "The four codesmen".
             <br><br>
             Thanks for checking out my portfolio!
-        </article>
-        </section>
-        <section class="content">
-        <h4 id="My-Work">My Work:</h4>
+            </article>
+    </section>
+    <!-- this is the Work section that contains the links to the websites I have worked on as well as my social media-->    
+    <section class="content">
+        <h3 id="My-Work">My Work:</h3>
         <article> 
-         <div class="websites">
-            <section class="showcases">
-                <header>Horiseon Refactor</header>
-                    <a href="https://evolangit.github.io/refactor-project-1/" >
-                        <img src="./assets/images/horiseonShowcase.png" alt="Horiseon Refactor banner"/>
+            <div class="websites">
+                <section class="showcases">
+                    <header>Horiseon Refactor</header>
+                    <a  href="https://evolangit.github.io/refactor-project-1/" >
+                        <img id="banner1" src="./assets/images/horiseonShowcase.png" alt="Horiseon Refactor banner"/>
                         <p>My very first refactor project.</p>
                     </a>
-            </section>
-            <section class="showcases">
-                <header>Personal Projects</header>
+                </section>
+                <section class="showcases">
+                    <header>Personal Projects</header>
                     <a href="https://github.com/EvolanGIT" >
                         <img src="./assets/images/gitHubpfp.png" alt="profile picture from Github profile" />
                         <p>Link to some repositories where I put to test <br> some of the concepts I have learned so far.</p>
                     </a>
-            </section>
-            <section class="showcases">
-                <header>Unrelated</header>
-                <a href="https://www.instagram.com/the_forgepainter/" >
-                <img src="./assets/images/igForgepainter.png" alt="profile picture from Instagram" />
-                <p>This will redirect you to my Miniature Model<br>Painting IG</p>
-                </a>
-            </section>
-        </div>
+                </section>
+                <section class="showcases">
+                    <header>Unrelated</header>
+                    <a href="https://www.instagram.com/the_forgepainter/" >
+                        <img src="./assets/images/igForgepainter.png" alt="profile picture from Instagram" />
+                        <p>This will redirect you to my Miniature Model<br>Painting IG</p>
+                    </a>
+                </section>
+            </div>
         </article>
-        </section>
-        <section class="content">
-            <h4 id="Resume">Resume:</h4>
+    </section>
+    <section class="content">
+            <h3 class="liner">Resume:</h3>
             <article> 
                 Coming Soon.
             </article>
-        </section>
-        <section class="content">
-            <h4 id="Contact">Contact:</h4>
+    </section>
+    <section class="content">
+            <h3 class="liner">Contact:</h3>
             <article> 
                 <ul>
                     <li>-e-mail:  yon_baermund@hotmail.com</li>
@@ -97,8 +100,8 @@
                     <li>-IG: <a href="https://www.instagram.com/yon_snow" alt="instagram profile"> yon_snow</li> </a>
                 </ul>
             </article>
-        </section>
-    </main>
+    </section>
+</main>
     <footer class="bottom background">
         <span>Made with 🌮 by Yon Bermudez.</span><br> Copyright Disclaimer under Section 107 of the copyright 
         act 1976, allowance is made for fair use for purposes such as criticism, comment, 
