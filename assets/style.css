@@ -120,9 +120,10 @@
     border-radius: 6px;
 }
 
-.content {
+.content { /*parent*/
     display: flex;
     padding:80px 40px 80px 20px;
+    
 }
 
 .content h3 {
@@ -238,7 +239,7 @@
     margin: 20px;
 }
 
-#banner{
+.banner{
     width: 100%;
 }
 .bottom{
