@@ -126,7 +126,6 @@
 }
 
 .content h3 {
-    display: flex;
     font-size: 40px;
     min-width: 15%;
     padding: 35px;
@@ -176,7 +175,6 @@
 
 /*this are the css elements for the footer*/
 .bottom {
-
     background-color: black;
     color: white;
     padding: 30px;
@@ -258,4 +256,13 @@
 #bio{
     font-size: 20px;
 }
+
+.hero {
+    color: white;
+}
+
+#bio{
+    line-height: 2rem;
+}
+
 }
