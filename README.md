@@ -17,9 +17,7 @@ as possible within the given time also keeping a homogeneus style and easy read.
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Access](#access)
 - [Visuals](#visuals)
