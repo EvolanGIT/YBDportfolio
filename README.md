@@ -8,7 +8,7 @@ as possible within the given time also keeping a homogeneus style and easy read.
 
 - It will also serve as a hub for future projects and a lab of sorts to experiment with new concepts.
 
-- My main focus during this project was to get a better understanding of web desing, responsiveness and how sites are shown to the viewer on different screen sizes.
+- My main focus during this project was to get a better understanding of web design, responsiveness and how sites are shown to the viewer on different screen sizes.
 
 ## Technical Skills
 
