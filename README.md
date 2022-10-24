@@ -4,7 +4,7 @@
 ## Description
 
 - This site served as my first project building a website from the ground up. I tried to apply as many concepts 
-as possible withing the given time also keeping a homogeneus style and easy read.
+as possible within the given time also keeping a homogeneus style and easy read.
 
 - It will also serve as a hub for future projects and a lab of sorts to experiment with new concepts.
 
