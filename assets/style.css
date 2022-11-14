@@ -218,9 +218,10 @@
     box-shadow: 5px 12px 2px 1px black; 
     border-radius: 10px;
     text-align: center;
+    margin: 0px;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 320px) {
+
 
 .content{
     display: block;
@@ -250,9 +251,6 @@
     font-size:20px;
 }
 
-.showcases{
-    margin: 0px;
-}
 
 #bio{
     font-size: 20px;
@@ -266,4 +264,4 @@
     line-height: 2rem;
 }
 
-}
+
