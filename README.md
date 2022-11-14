@@ -36,7 +36,7 @@ as possible within the given time also keeping a homogeneus style and easy read.
 
 This is the screenshot of the full-size website portfolio.
     
-![alt fullsite](assets/images/Fullscreenshot.png)
+![alt fullsite](./assets/images/Fullscreenshot.jpg)
     
 
 ## Credits
