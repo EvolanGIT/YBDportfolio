@@ -36,7 +36,7 @@ as possible within the given time also keeping a homogeneus style and easy read.
 
 This is the screenshot of the full-size website portfolio.
     
-![alt fullsite](./assets/images/Fullscreenshot.jpg)
+![alt fullsite](./assets/images/Fullscreenshot.png)
     
 
 ## Credits
@@ -62,9 +62,9 @@ Copyright (c) [2022] [Yonatan Yael Bermudez Diez]
 
 ## Features
 
--Responsive Design made to work in all screen sizes.
--Animated Buttons.
--Image Hyperlinks to my work.
+- Responsive Design made to work in all screen sizes.
+- Animated Buttons.
+- Image Hyperlinks to my work.
 
 ## How to Contribute
 
